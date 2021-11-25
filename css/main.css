@@ -1,8 +1,9 @@
 body{margin:0; padding:0; }
             ul,li,ol {list-style:none; margin:0; padding:0;}
             nav a{text-decoration: none; color:black;}
-            body{background-image:url("../img/");}
-            
+            body{background-image:url("../img/background3.png");
+            background-repeat: no-repeat;
+            background-position: center;}
 
 
 
@@ -94,17 +95,21 @@ body{margin:0; padding:0; }
         .shoe h1{text-align:center; font-size:30px;}
 
         #shoes p{color:#858585;}
-        #shoes{width:1350px; height:2000px; margin:0 auto; background-color:}
-        #shoes1{width:100%; height:500px; margin:0 auto; background-color: }
-        .shoes1{float:left; margin:20px; text-align: center;}
+        #shoes{width:100%; height:2000px; margin:0 auto; background-color:}
+        
+        #shoes1{width:1050px; height:500px; margin:0 auto; background-color:}
+        .shoes1{width:350px; height:500px; float:left; text-align: center; background-color: }
+        .shoes1 img{width:350px; height:350px;}
         
 
-        #shoes2{width:100%; height:500px; margin:0 auto; position:relative; top:30px; background-color:}
-        .shoes2{float:left; margin:20px; text-align: center;}
+        #shoes2{width:1050px; height:500px; margin:0 auto; position:relative; top:30px; background-color:}
+        .shoes2{width:350px; height:500px; float:left; text-align: center; background-color:}
+        .shoes2 img{width:350px; height:350px;}
 
-        #shoes3{width:100%; height:500px; margin:0 auto; position:relative; top:60px; background-color:}
-        .shoes3{float:left; margin:20px; text-align: center;}
-        
+        #shoes3{width:1050px; height:500px; margin:0 auto; position:relative; top:60px; background-color:}
+        .shoes3{width:350px; height:500px; float:left; text-align: center; background-color: }
+        .shoes3 img{width:350px; height:350px;}
+
         .shoes1:hover{transform: scale(1.1); transition: all 0.3s ease-in-out;}
         .shoes2:hover{transform: scale(1.1); transition: all 0.3s ease-in-out;}
         .shoes3:hover{transform: scale(1.1); transition: all 0.3s ease-in-out;}
